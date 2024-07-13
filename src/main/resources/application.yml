@@ -1,0 +1,14 @@
+logging:
+  level:
+    org:
+      springframework:
+        boot:
+          autoconfigure: INFO
+spring:
+  banner:
+    location: static/banner.txt
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: library
